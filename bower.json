@@ -1,0 +1,29 @@
+{
+  "name": "xml2json",
+  "version": "0.1",
+  "homepage": "https://github.com/henrikingo/xml2json",
+  "authors": [
+    "henrikingo"
+  ],
+  "description": "Translate any XML document to corresponding JSON (TODO: or vice versa).",
+  "main": ["./xml2json.js",
+  "./json2xml.js"
+  ],
+  "ignore": [
+    "lib",
+    "src",
+    "test",
+    "build_all",
+    "build.js",
+    "build.sh",
+    "create_build_script.js",
+    "test.js",
+    "HEADER.js"
+  ],
+  "keywords": [
+    "xml",
+    "json",
+    "convert"
+  ],
+  "license": "GNU"
+}
