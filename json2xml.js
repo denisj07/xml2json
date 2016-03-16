@@ -117,7 +117,8 @@ function json2xml_translator() {
 
 function json2xml(json, tab) {
    var X = json2xml_translator();
-   var xml = X.toXml( X.parseJson(json) );
+   var xml = '<?xml version="1.0" encoding="UTF-8"?>\n\n';
+   xml += X.toXml( X.parseJson(json) );
    // If tab given, do pretty print, otherwise remove white space
    return tab ? xml.replace(/\t/g, tab) : xml.replace(/\t|\n/g, "");
 }
